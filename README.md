@@ -25,7 +25,7 @@ Proje sayımız ilerledikçe proje yönetimimizi kolaylaştırmak adına projele
  * Project Lombok'u dependency olarak uygulamanıza ekleyin.
  * ```entity``` paketinin altına ```Member``` adında bir sınıf tanımlayınız. İçerisinde instance variable olarak ```id, firstName, lastName, email, password``` isminde 5 tane değişken oluşturun.
  * ```entity``` paketinin altına JDBCAuthentication için ```Role``` adında bir sınıf oluşturunuz içerisine ```id, authority``` adında 2 field ekleyiniz. Member ve Role arasında many-to-many bir ilişki tanımlamalısınız.
- * ```Role``` enum tipinde olmalı. ```USER ve ADMIN``` değerlerini alır.
+ * ```Role``` ```USER ve ADMIN``` değerlerini alır.
  * ```Student``` isminde bir sınıf yazınız. ```id, tckn, firstName, lastName``` değerleri olmalı.
  * Lombok ve JPA annotation larını uygulayarak bütün sınıfı bir veritabanı tablosu olucak şekilde işaretleyiniz.
  * ```application.properties``` dosyanızı kullanarak veritabanı bağlantınızı kurun.
